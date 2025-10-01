@@ -3,4 +3,4 @@
 
   tasks:
   - name: Ping
-    ansible.bulitin.ping:
+    ansible.builtin.ping:
