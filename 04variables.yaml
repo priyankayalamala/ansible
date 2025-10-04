@@ -7,6 +7,6 @@
     trainer: Siva
   tasks:
   - name: Print the course info
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "course name is: {{ COURSE }}, Duration: {{ DURATION }}, trainer: {{ trainer }}"
       
